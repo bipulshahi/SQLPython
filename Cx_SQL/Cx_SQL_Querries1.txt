@@ -1,0 +1,19 @@
+MySql server => https://downloads.mysql.com/archives/installer/
+mysql Client => Shell => https://downloads.mysql.com/archives/shell/
+
+Commands
+show databases;  			=> show all existing databases
+create DATABASE db1;  			=> create a new data base
+use db1;           			=> make db1 database available
+show tables;  				=> return the table in the database
+create table book(bookid integer(4), title varchar(20), price float(5,2));  
+					=> create a table book
+desc book;  				=> returns table fields of table book
+insert into book (bookid,title,price) values(1,'HTML',290)
+					=> to insert a table row
+select * from book; 			=> returns data in table
+update book set price = price+10;       => updates the table fields values
+update book set price = price+10 where price<250;
+					=> updates the value on a given condition
+update book set title = "HTML5" where title = "HTML";
+					=> change the name of HTML to HTML5

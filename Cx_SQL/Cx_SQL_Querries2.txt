@@ -1,0 +1,40 @@
+# delete from book where title='HTML5';     			
+			=>delete the row with title HTML5
+
+#create table bookt2 as select distinct title from book;        
+			=>create a bookt2 table with only unique titles
+
+#create table bookt3 as select distinct bookid,title,price from book;
+			=>create a bookt2 table with unique id,titles & price
+
+#create view bookview2 as select distinct title from book; 
+			=>create a view bookview2 with only unique titles
+
+#create view bookview3 as select distinct bookid,title,price from book;
+			=>create a bookview3 view with unique id,titles & price
+
+#create view bookview3 as select * from book where title="PHP";
+			=>create a view with title 'PHP'
+
+#drop table table_name;  => to delete a table
+
+#alter table book add column quantity integer(4);  => to add anew column quantity
+
+#alter table book add column sales float(5,2) after price;
+			=> add a new column sales after price column
+
+#alter table book drop column quantity;   => drop the quantity column from table
+
+#alter table book add column skuid int first;  => add a new column at first place
+
+#update book set sku_id=1;
+#update book set skuid=5 where title='JS';
+			=> to update the values in skuid column
+************************************************************************************
+install mysql.connector => pip install mysql-connector-python
+
+
+
+
+
+
