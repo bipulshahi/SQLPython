@@ -1,0 +1,48 @@
+MySQL Assignment
+Instructions:
+
+Answer the following questions.
+Provide SQL queries wherever necessary.
+Submit your answers by [submission deadline].
+Part 1: DDL (Data Definition Language)
+
+Define DDL. Explain its role in database management.
+Write SQL queries to perform the following DDL operations:
+Create a new database named Company.
+Create a table named Employees with the following columns:
+EmployeeID (INT, primary key)
+FirstName (VARCHAR)
+LastName (VARCHAR)
+Department (VARCHAR)
+Salary (DECIMAL)
+Add a new column named Email to the Employees table to store email addresses.
+Part 2: DML (Data Manipulation Language)
+
+Define DML. How does it differ from DDL?
+Write SQL queries to perform the following DML operations:
+Insert 3 records into the Employees table.
+Update the salary of an employee with EmployeeID 1 to $5000.
+Delete the record of an employee with EmployeeID 2.
+Part 3: DQL (Data Query Language)
+
+Define DQL. Explain its significance in database querying.
+Write SQL queries to retrieve the following information:
+Select all columns from the Employees table.
+Select the FirstName and Salary of employees whose salary is greater than $4000.
+Part 4: Joins
+
+Explain the concept of JOIN in SQL. Provide different types of JOINs.
+Write an SQL query to perform an INNER JOIN between the Employees table and another table named Departments, where both tables have a common column DepartmentID.
+Part 5: Functions
+
+Explain the difference between inbuilt and user-defined functions in MySQL.
+Provide examples of inbuilt functions in MySQL, such as COUNT, SUM, and CONCAT.
+Define and implement a user-defined function named calculate_bonus that takes an employee's salary as input and returns 10% of the salary as bonus.
+Part 6: Stored Procedure
+
+Define a stored procedure named update_salary that takes an employee ID and a new salary as input and updates the salary of the specified employee in the Employees table.
+Call the update_salary procedure to update the salary of an employee with EmployeeID 3 to $6000.
+Part 7: Triggers
+
+Explain the concept of triggers in MySQL. When are triggers executed?
+Create a trigger named after_employee_insert that automatically inserts a record into a log table named Employee_Logs whenever a new employee is inserted into the Employees table. The log should contain the EmployeeID, FirstName, LastName, and Department of the newly inserted employee, along with the timestamp of the insertion.
