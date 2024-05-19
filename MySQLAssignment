@@ -78,6 +78,10 @@ Part 4: Joins
 Part 5: Functions
 
     Explain the difference between inbuilt and user-defined functions in MySQL.
+
+=> Inbuilt functions are pre-defined functions provided by MySQL, such as 'COUNT','SUM','AVG','MAX' and 'MIN'.
+=> User defined functions are custome made functions created by user to perform specific task.
+
     Provide examples of inbuilt functions in MySQL, such as COUNT, SUM, and CONCAT.
     Define and implement a user-defined function named calculate_bonus that takes an employee's salary as input and returns 10% of the salary as bonus.
 
