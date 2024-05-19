@@ -57,7 +57,12 @@ Part 3: DQL (Data Query Language)
 
     Write SQL queries to retrieve the following information:
     Select all columns from the Employees table.
+
+=> select * from Employees
+
     Select the FirstName and Salary of employees whose salary is greater than $4000.
+
+=> select first_name , salary from Employees where salary > 4000;
 
 Part 4: Joins
 
