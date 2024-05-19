@@ -14,6 +14,9 @@ Part 1: DDL (Data Definition Language)
 
   2. Write SQL queries to perform the following DDL operations:
     Create a new database named Company.
+
+=> create database if not exist company
+
     Create a table named Employees with the following columns:
       EmployeeID (INT, primary key)
       FirstName (VARCHAR)
@@ -21,6 +24,8 @@ Part 1: DDL (Data Definition Language)
       Department (VARCHAR)
       Salary (DECIMAL)
       Add a new column named Email to the Employees table to store email addresses.
+
+=> Create table employees (emp_id int auto_increment primary Key, first_name varchar(50), last_name varchar(50), department varchar(20), salary decimal(10,2));
 
 Part 2: DML (Data Manipulation Language)
 
