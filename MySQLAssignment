@@ -128,4 +128,7 @@ call update_salary(3,6500);
 Part 7: Triggers
 
     Explain the concept of triggers in MySQL. When are triggers executed?
+
+=> Triggers are special types of stored procedures that are automatically executed or fired when certain events occur, such as 'Insert' , 'UPDATE' , or 'DELETE' on a table.
+
     Create a trigger named after_employee_insert that automatically inserts a record into a log table named Employee_Logs whenever a new employee is inserted into the Employees table. The log should contain the EmployeeID, FirstName, LastName, and Department of the newly inserted employee, along with the timestamp of the insertion.
