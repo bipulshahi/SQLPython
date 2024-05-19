@@ -8,6 +8,10 @@ Answer the following questions.
 Part 1: DDL (Data Definition Language)
 
   1. Define DDL. Explain its role in database management.
+    => DDL stands for data definition language. It is used to define and manage all objects in a database, such as tables, indexes, and views.
+    => It includes commands like 'CREATE' , 'ALTER' , 'DROP' , and 'TRUNCATE'
+
+
   2. Write SQL queries to perform the following DDL operations:
     Create a new database named Company.
     Create a table named Employees with the following columns:
