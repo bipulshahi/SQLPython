@@ -38,8 +38,16 @@ Part 2: DML (Data Manipulation Language)
 
     Write SQL queries to perform the following DML operations:
     Insert 3 records into the Employees table.
+
+=> insert into Employees (first_name , last_name , department , salary) values ( "tarun" , “sethiye", "hr",60000), ("ram" , “singh", "it",15122), ("tara”, “sharma", "finance",61658);
+
     Update the salary of an employee with EmployeeID 1 to $5000.
+
+=> update Employees set salary = 5000.00 where emp_id = 1;
+
     Delete the record of an employee with EmployeeID 2.
+
+=> delete from Employees where emp_id = 2;
 
 Part 3: DQL (Data Query Language)
 
