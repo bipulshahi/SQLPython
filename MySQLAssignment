@@ -67,6 +67,10 @@ Part 3: DQL (Data Query Language)
 Part 4: Joins
 
     Explain the concept of JOIN in SQL. Provide different types of JOINs.
+
+=> A JOIN clause is used to combine rows from two or more tables based on a related column between them. 
+=> Types of Joins include INNER JOIN, LEFT JOIN, RIGHT JOIN & FULL OUTER JOIN
+
     Write an SQL query to perform an INNER JOIN between the Employees table and another table named Departments, where both tables have a common column DepartmentID.
 
 Part 5: Functions
