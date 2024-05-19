@@ -83,6 +83,11 @@ Part 5: Functions
 => User defined functions are custome made functions created by user to perform specific task.
 
     Provide examples of inbuilt functions in MySQL, such as COUNT, SUM, and CONCAT.
+
+=> select sum(salary) from employees;
+=> select count(*) from employees;
+=> select concat(first_name,' ',last_name) as FullName from employees;
+
     Define and implement a user-defined function named calculate_bonus that takes an employee's salary as input and returns 10% of the salary as bonus.
 
 Part 6: Stored Procedure
