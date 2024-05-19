@@ -90,6 +90,24 @@ Part 5: Functions
 
     Define and implement a user-defined function named calculate_bonus that takes an employee's salary as input and returns 10% of the salary as bonus.
 
+-- Change the delimiter to //
+DELIMITER //
+
+-- Create the user-defined function with DETERMINISTIC keyword
+CREATE FUNCTION calculate_bonus(salary DECIMAL(10, 2)) RETURNS DECIMAL(10, 2)
+DETERMINISTIC
+BEGIN
+    RETURN salary * 0.10;
+END //
+
+-- Reset the delimiter to ;
+DELIMITER ;
+
+-- Call the function created ---
+SELECT calculate_bonus(5000.00) AS Bonus;
+
+
+
 Part 6: Stored Procedure
 
     Define a stored procedure named update_salary that takes an employee ID and a new salary as input and updates the salary of the specified employee in the Employees table.
