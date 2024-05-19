@@ -30,6 +30,12 @@ Part 1: DDL (Data Definition Language)
 Part 2: DML (Data Manipulation Language)
 
     Define DML. How does it differ from DDL?
+
+=> DML stands for data manipulation language. 
+=> It is used to rerieve, insert, update and delete data in a database.
+=> Unlike DDL, DML manipulates the data within tables, not the table structure itself.
+
+
     Write SQL queries to perform the following DML operations:
     Insert 3 records into the Employees table.
     Update the salary of an employee with EmployeeID 1 to $5000.
