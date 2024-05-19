@@ -73,6 +73,8 @@ Part 4: Joins
 
     Write an SQL query to perform an INNER JOIN between the Employees table and another table named Departments, where both tables have a common column DepartmentID.
 
+=> select employees.first_name,employees.last_name,departments.dept_name from employees inner join departments on employees.dept_id =departments.dept_id;
+
 Part 5: Functions
 
     Explain the difference between inbuilt and user-defined functions in MySQL.
