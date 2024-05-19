@@ -52,6 +52,9 @@ Part 2: DML (Data Manipulation Language)
 Part 3: DQL (Data Query Language)
 
     Define DQL. Explain its significance in database querying.
+
+=> DQL stands for Data Query Language. It is used to query the database and retrieve data from it. The most common DQL is "SELECT".
+
     Write SQL queries to retrieve the following information:
     Select all columns from the Employees table.
     Select the FirstName and Salary of employees whose salary is greater than $4000.
