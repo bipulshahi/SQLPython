@@ -113,6 +113,18 @@ Part 6: Stored Procedure
     Define a stored procedure named update_salary that takes an employee ID and a new salary as input and updates the salary of the specified employee in the Employees table.
     Call the update_salary procedure to update the salary of an employee with EmployeeID 3 to $6000.
 
+delimiter //
+create procedure update_salary(IN empid int, IN new_salary decimal(10,2))
+begin
+	update employees set salary = new_salary where employee_id = empid;
+end //
+
+—reset delimiter—
+delimiter ;
+
+--call stored procedure--
+call update_salary(3,6500);
+
 Part 7: Triggers
 
     Explain the concept of triggers in MySQL. When are triggers executed?
